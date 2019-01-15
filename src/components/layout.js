@@ -24,7 +24,6 @@ export default({ children }) =>(
       </header>
       {children}
       <Footer />
-      
     </div>
 )
 

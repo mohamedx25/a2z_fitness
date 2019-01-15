@@ -1,13 +1,12 @@
 import React from 'react'
+import './layout.css'
+
 
 const Footer = (props) => (
-    <footer id="footer">
-        <section>
-            <h3>A2Z FITNESS</h3>
-        </section>
+    <footer id="footer" className='footer'>
         <section>
             <ul className='icons'>
-                <li><a href='#'>Instagram</a></li>
+                <li><a href='#' className='fa fa-instagram'>Instagram</a></li>
                 <li><a href='#'>Twitter</a></li>
             </ul>
         </section>
