@@ -1,16 +1,19 @@
 * {
     box-sizing: content-box;
     text-decoration: none;
-   
+    
 }
 body{
     margin: 0;
 }
 .header{
-    background-color: bisque;
+    background-color: rgb(29, 27, 27);
     display: flex;
     font-weight: 400;
-    
+    color: whitesmoke;
+}
+.container{
+    color: red;
 }
 .logo{
     padding: 30px;
@@ -27,8 +30,11 @@ body{
     text-decoration: none;
 }
 .footer{
-    background-color: aqua;
+    background-color: rgb(29, 27, 27);
+    color: whitesmoke;
 }
 .icons{
     list-style-type: none;
+    color: whitesmoke;
+    font-weight: bold; 
 }
