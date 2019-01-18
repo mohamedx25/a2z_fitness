@@ -35,6 +35,7 @@ body{
 }
 .icons{
     list-style-type: none;
-    color: whitesmoke;
-    font-weight: bold; 
+    color: #fb3958; 
+    text-align: center;
+    padding: 15px;
 }

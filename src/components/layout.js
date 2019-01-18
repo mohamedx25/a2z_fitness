@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Footer from './footer'
 import './layout.css'
+import logo from '../components/logo.jpg'
+
+console.log(logo);
 
 const ListLink = props =>(
     <li style={{ display: `inline-block`, marginRight: `1rem`, textDecoration: 'none'}}>
@@ -13,7 +16,7 @@ export default({ children }) =>(
       <header style={{ marginBottom: `0 auto`}} className='header'>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`}} 
         className='logo'>
-           <h3>A2Z Fitness</h3>
+           <img src={logo} alt='logo' />
         </Link>
         <ul className='nav'>
             <ListLink to="/" className='link'>Home</ListLink>

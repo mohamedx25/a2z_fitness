@@ -13,7 +13,7 @@ export default() => (
             <h1>Hello</h1>
             <p>my name is amine zaouia</p>
             <FontAwesomeIcon icon='coffee' />
-            <FontAwesomeIcon icon={['fab', 'google']} />
+            <FontAwesomeIcon icon={['fab', 'instagram']} />
         </div>
     </Layout>
 )
