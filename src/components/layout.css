@@ -19,6 +19,11 @@ body{
     padding: 30px;
     font-size: 1.5rem;
     text-decoration: none;
+    border-style: none;
+    border-width: 200px;
+    max-width: 20px;
+    width: 50px;
+    border-radius: 50%;
 }
 .nav{
     margin-left: auto;
