@@ -11,19 +11,17 @@ body{
     display: flex;
     font-weight: 400;
     color: whitesmoke;
+    height: 100px;
 }
 .container{
     color: red;
 }
 .logo{
-    padding: 30px;
-    font-size: 1.5rem;
-    text-decoration: none;
-    border-style: none;
-    border-width: 200px;
-    max-width: 20px;
-    width: 50px;
-    border-radius: 50%;
+    padding-left: 15px;
+    width: inherit;
+    height: inherit;
+    
+    border-radius: 75%;
 }
 .nav{
     margin-left: auto;

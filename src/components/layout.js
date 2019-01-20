@@ -14,10 +14,10 @@ const ListLink = props =>(
 export default({ children }) =>(
     <div style= {{ margin: '0 auto', maxWidth: '100%'}}  >
       <header style={{ marginBottom: `0 auto`}} className='header'>
-        <Link to="/" style={{ textShadow: `none`}} 
-        className='logo'>
-           <img src={logo} alt='logo' />
-        </Link>
+        
+           <img src={logo} alt='logo' className='logo'/><Link to='/'/>
+            
+        
         <ul className='nav'>
             <ListLink to="/" className='link'>Home</ListLink>
             <ListLink to="/about/">About</ListLink>
