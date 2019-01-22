@@ -11,7 +11,18 @@ library.add(fab, faCoffee);
 export default() => (
     <Layout>
         <div className='container'>
-            
+            <div className='intro'>
+                <h1>Hello my guy</h1>
+            </div>
+            <div className='group-training'>
+                <h1>Group fitness</h1>
+            </div>
+            <div className='sports-training'>
+                <h1>Sports Training</h1>
+            </div>
+            <div className='personal-training'>
+                <h1>Personal Training</h1>
+            </div>
         </div>
     </Layout>
 )

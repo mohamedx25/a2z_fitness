@@ -2,7 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Footer from './footer'
 import './layout.css'
+import './index.css'
 import logo from '../components/logo.jpg'
+
+
 
 console.log(logo);
 
@@ -25,6 +28,7 @@ export default({ children }) =>(
       </header>
       {children}
       <Footer />
+  
     </div>
 )
 

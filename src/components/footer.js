@@ -2,13 +2,13 @@ import React from 'react'
 import './layout.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-library.add(fab, faCoffee); 
+library.add(fab); 
 
 
-const Footer = (props) => (
+const Footer = (children) => (
     <footer id="footer" className='footer'>
         <section>
             <ul className='icons'>
