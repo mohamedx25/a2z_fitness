@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Footer from './footer'
 import './layout.css'
-import logo from '../components/logo1.jpg'
+import logo from '../components/logo.jpg'
 
 console.log(logo);
 
@@ -15,9 +15,7 @@ export default({ children }) =>(
     <div style= {{ margin: '0 auto', maxWidth: '100%'}}  >
       <header style={{ marginBottom: `0 auto`}} className='header'>
         
-           <img src={logo} alt='logo' className='logo'/><Link to='/'/>
-            
-        
+           <img src={logo} alt='logo' className='logo'/>
         <ul className='nav'>
             <ListLink to="/" className='link'>Home</ListLink>
             <ListLink to="/about/">About</ListLink>

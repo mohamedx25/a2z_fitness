@@ -10,12 +10,10 @@ body{
     background-color: rgb(29, 27, 27);
     display: flex;
     font-weight: 400;
-    color: whitesmoke;
+    color: red;
     height: 100px;
 }
-.container{
-    color: red;
-}
+
 .logo{
     padding-left: 15px;
     width: inherit;
@@ -26,11 +24,13 @@ body{
 .nav{
     margin-left: auto;
     margin-right: 150px;
-    font-size: 1.5rem;
-    
+    font-size: 2rem;
+    color: lawngreen
 }
+
 .link{
     text-decoration: none;
+    
 }
 .footer{
     background-color: rgb(29, 27, 27);
