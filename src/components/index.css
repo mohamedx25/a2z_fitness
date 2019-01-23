@@ -1,21 +1,26 @@
 .container{
-    height: 300px;
+    height: 100%;
     width: 100%;
-    
+    display: flex;
+    flex-direction: column;
 }
 .intro{
-    height: 400px;
+    height: 700px;
     width: 100%;
+    background-image: 
 }
 .group-training{
-    height: 400px;
+    height: 500px;
     width: 100%;
+    background-color: red
 }
 .sports-training{
     height: 400px;
     width: 100%;
+    background-color: darkmagenta;
 }
 .personal-training{
     height: 400px;
     width: 100%;
+    background-color: aqua;
 }
