@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Footer from './footer'
 import './layout.css'
 import './index.css'
-import logo from '../components/logo.jpg'
+import logo from '../components/images/logo.jpg'
 
 
 

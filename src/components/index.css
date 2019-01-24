@@ -5,9 +5,22 @@
     flex-direction: column;
 }
 .intro{
-    height: 700px;
+    height: 800px;
     width: 100%;
-    background-image: 
+
+}
+.banner{
+    background-image: url('../components/images/HIIT_class.jpg');
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+}
+.banner-description{
+
 }
 .group-training{
     height: 500px;
