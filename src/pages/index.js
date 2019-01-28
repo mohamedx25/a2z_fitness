@@ -15,7 +15,9 @@ export default() => (
                 <div className='banner'>
                     <div className='banner-description'>
                         <h1>A2Z Fitness</h1>
-                        <h4></h4>
+                        <h4>It's time to go from A to Z in your
+                            fitness journey!
+                        </h4>
                     </div>
                 </div>
             </div>
