@@ -14,10 +14,11 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 100%;
+    height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -300px; 
+    background-position-y: center;
+    background-attachment: fixed; 
 }
 .banner-description{
     font-size: 24px;
