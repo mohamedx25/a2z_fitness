@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from '../components/layout'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/css/bootstrap-theme.css';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import '../components/index.css'
@@ -20,6 +20,7 @@ export default() => (
                         <h4>It's time to go from A to Z in your
                             fitness journey!
                         </h4>
+                        {/* add the promo video to start */}
                     </div>
                 </div>
             </div>
@@ -33,9 +34,9 @@ export default() => (
                 </p>
                 <h5>Contact me to schedule an individual training session!</h5>
                 {/* put a button heree. Bootstrap? */}
-                <Button bsStyle='primary' bsSize='large' active>
+                {/* <Button bsStyle='primary' bsSize='large' active>
                     Contact Me!
-                </Button>                
+                </Button>                 */}
 
             </div>
             <div className='group-training'>

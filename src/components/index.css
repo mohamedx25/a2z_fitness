@@ -11,14 +11,15 @@
 }
 .banner{
     background-image: url('../components/images/youth_team.jpg');
-    position: absolute;
-    z-index: 1;
+    
+    overflow: hidden;
+    
     width: 100%;
     height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
-    background-attachment: fixed; 
+    
 }
 .banner-description{
     font-size: 24px;
