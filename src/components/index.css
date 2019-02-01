@@ -24,22 +24,22 @@
 .banner-description{
     font-size: 24px;
     padding-top: 30px;
-    color: darkgoldenrod;
+    color: ;
     text-align: center;
     font-weight: bold; 
 }
 .group-training{
     height: 500px;
     width: 100%;
-    background-color: red
+    background-color: ;
 }
 .sports-training{
     height: 400px;
     width: 100%;
-    background-color: darkmagenta;
+    background-color: ;
 }
 .personal-training{
     height: 400px;
     width: 100%;
-    background-color: aqua;
+    background-color: ;
 }
