@@ -10,7 +10,7 @@ body{
     overflow: auto;
 }
 .header, .footer{
-    background-color: #424B54;
+    /* background-color: #424B54; */
 }
 .header{
     
@@ -21,8 +21,10 @@ body{
     overflow: hidden;
 
 }
-
-.logo{
+.background-video{
+    
+}
+/* .logo{
     padding-left: 15px;
     width: inherit;
     height: inherit;
@@ -34,7 +36,7 @@ body{
     margin-right: 150px;
     font-size: 2rem;
     color: lawngreen
-}
+} */
 
 .link{
     text-decoration: none;

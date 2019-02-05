@@ -7,6 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import '../components/index.css'
+import Video from '../components/video'
 
 library.add(fab, faCoffee); 
 
@@ -20,7 +21,7 @@ export default() => (
                         <h4>It's time to go from A to Z in your
                             fitness journey!
                         </h4>
-                        {/* add the promo video to start */}
+                        <Video />
                     </div>
                 </div>
             </div>
